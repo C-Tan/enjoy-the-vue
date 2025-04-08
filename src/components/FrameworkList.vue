@@ -7,9 +7,17 @@
       <li>React</li>
     </ul>
   </div>
+  <LanguageList lang="JavaScript" />
 </template>
 
 <script>
+import LanguageList from './LanguageList.vue';
+export default {
+  name: 'FrameworkList',
+  components: {
+    LanguageList,
+  },
+};
 </script>
 
 <style>
